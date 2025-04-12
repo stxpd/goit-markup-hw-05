@@ -537,44 +537,65 @@
               <p class="footer-text">Subscribe</p>
               <input class="footer-input" type="email" name="user_email" />
             </label>
-            <button type="submit" class="footer-btn">
-              <span class="footer-btn-text">Subscribe</span>
-              <svg class="footer-btn-icon" width="24" height="24">
-                <use href="./images/icons.svg#send"></use>
-              </svg>
-            </button>
+            <div class="btn-submit">
+              <button type="submit" class="footer-btn">
+                <span class="footer-btn-text">Subscribe</span>
+                <svg class="footer-btn-icon" width="24" height="24">
+                  <use href="./images/icons.svg#send"></use>
+                </svg>
+              </button>
+            </div>
           </form>
         </div>
       </div>
     </footer>
 
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
-        <p class="modal-text">Leave your contacts and we will call you back</p>
         <form class="form-modal">
+          <button class="icon-close-btn">
+            <svg class="icon-close">
+              <use href="images/icons.svg#close"></use>
+            </svg>
+          </button>
+          <p class="modal-text">
+            Leave your contacts and we will call you back
+          </p>
           <label class="label-modal">
             <p class="label-text">Name</p>
-            <input type="text" name="username" />
+            <input class="input-modal" type="text" name="username" />
           </label>
           <label class="label-modal">
             <p class="label-text">Phone</p>
-            <input type="tel" name="tel" />
+            <input class="input-modal" type="tel" name="tel" />
           </label>
           <label class="label-modal">
             <p class="label-text">Email</p>
-            <input type="email" name="email" />
+            <input class="input-modal" type="email" name="email" />
           </label>
           <p class="label-text">Comment</p>
           <label class="label-modal">
-            <textarea name="comment_area" placeholder="Text input"></textarea>
+            <textarea
+              class="textarea-modal"
+              name="comment_area"
+              placeholder="Text input"
+            ></textarea>
           </label>
-          <label class="radio">
-            <p class="label-text">
+          <label class="label-modal">
+            <p class="label-checkbox-text">
               I accept the terms and conditions of the
               <span class="privacy-checkbox">Privacy Policy</span>
             </p>
-            <input type="checkbox" name="radio-agree" value="Privacy Policy" />
+            <input
+              class="checkbox-modal"
+              type="checkbox"
+              name="radio-agree"
+              value="Privacy Policy"
+            />
           </label>
+          <button type="submit" class="modal-btn-send">
+            <p class="modal-btn-text">Send</p>
+          </button>
         </form>
       </div>
     </div>
