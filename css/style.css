@@ -508,12 +508,12 @@ a {
 }
 
 .footer-text {
-  display: flex;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
 }
 
 .footer-btn-text {
@@ -531,17 +531,21 @@ a {
   justify-content: center;
   flex-direction: row;
   gap: 16px;
+  font-family: "Roboto", sans-serif;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
   height: 40px;
   background-color: #4d5ae5;
+  min-width: 165px;
+  cursor: pointer;
+  border: none;
 }
 
 .footer-btn-icon {
   width: 24px;
   height: 24px;
   fill: #fff;
+  margin-left: 16px;
 }
 
 .footer-input {
@@ -550,6 +554,21 @@ a {
   width: 264px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  color: #ffffff;
+}
+
+.footer-input::placeholder {
+  color: #ffffff;
+}
+
+.form-input {
+  display: flex;
+  gap: 24px;
 }
 
 /* modal */
