@@ -712,6 +712,7 @@ a {
   border-radius: 4px;
   width: 360px;
   height: 120px;
+  outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -751,11 +752,11 @@ a {
 }
 
 .label-text {
+  display: block;
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: block;
   margin-bottom: 4px;
   line-height: 1.17;
 }
@@ -773,4 +774,8 @@ a {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
+}
+
+.input-wrapper {
+  position: relative;
 }
