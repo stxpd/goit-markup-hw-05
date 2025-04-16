@@ -703,9 +703,9 @@ a {
   border-color: #4d5ae5;
 }
 
-.container-input-icon:focus-within .modal-btn-icon {
+/* .container-form:focus-within .modal-btn-icon {
   fill: #4d5ae5;
-}
+} */
 
 .textarea-modal {
   border: 1px solid rgba(46, 47, 66, 0.4);
