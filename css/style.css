@@ -727,8 +727,8 @@ a {
 
 .modal-btn-send {
   display: block;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
   gap: 10px;
 
@@ -808,6 +808,9 @@ input:checked + .label-checkbox > .privacy-checkbox {
   background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
+}
+
+.modal-btn-icon-checkbox {
 }
 
 .input-wrapper {
