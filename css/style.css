@@ -808,7 +808,7 @@ a {
   color: #4d5ae5;
 }
 
-input:checked + label > span {
+input:checked + .label-checkbox > .privacy-checkbox {
   background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
