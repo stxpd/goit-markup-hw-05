@@ -685,10 +685,6 @@ a {
 }
 
 .container-form {
-  margin-bottom: 8px;
-}
-
-.container-form-checkbox {
   margin-bottom: 16px;
 }
 
@@ -816,6 +812,7 @@ input:checked + .label-checkbox > .privacy-checkbox {
 
 .input-wrapper {
   position: relative;
+  margin-bottom: 24px;
 }
 
 .label-checkbox {
