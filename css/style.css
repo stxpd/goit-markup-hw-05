@@ -685,7 +685,7 @@ a {
 }
 
 .container-form {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .input-modal {
@@ -812,7 +812,14 @@ input:checked + .label-checkbox > .privacy-checkbox {
 
 .input-wrapper {
   position: relative;
+}
+
+.wrapper-checkbox {
   margin-bottom: 24px;
+}
+
+.form-textarea {
+  margin-bottom: 16px;
 }
 
 .label-checkbox {
