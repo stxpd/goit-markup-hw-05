@@ -736,6 +736,7 @@ a {
   padding: 16px 32px;
   min-width: 169px;
   height: 56px;
+  margin: 0 auto;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
 
@@ -811,6 +812,9 @@ input:checked + .label-checkbox > .privacy-checkbox {
 }
 
 .modal-btn-icon-checkbox {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .input-wrapper {
